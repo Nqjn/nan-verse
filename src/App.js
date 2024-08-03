@@ -9,7 +9,7 @@ function App() {
     <div className='conteiner'>
       <Routes>
         <Route path="/p0ker" element={<PokerPage />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/nan-verse" element={<Home />} />
       </Routes>
     </div>
   );
