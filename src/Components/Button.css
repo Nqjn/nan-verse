@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('../assets/fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  }
+
+.btn{
+    font-family: 'VCR OSD Mono', monospace;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: noen;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: 'VCR_OSD_MONO', sans-serif;
+    }
+
+.btn:hover{
+background-color: #dddddd57;
+
+text-shadow: 
+      2px 2px 0 #FF0000, 
+      -2px -2px 0 #0000FF, 
+      2px -2px 0 #FF00FF, 
+      -2px 2px 0 #00FFFF;
+  animation: glitch 2s infinite;
+
+border-color: 
+  2px 2px 0 #FF0000, 
+  -2px -2px 0 #0000FF, 
+  2px -2px 0 #FF00FF, 
+  -2px 2px 0 #00FFFF;
+animation: glitch 2s infinite;
+}
+
+
+
+
+@keyframes glitch {
+  0% {
+      text-shadow: 
+          2px 2px 0 #FF0000, 
+          -2px -2px 0 #0000FF, 
+          2px -2px 0 #FF00FF, 
+          -2px 2px 0 #00FFFF;
+      transform: translate(0, 0);
+
+
+  }
+  20% {
+      text-shadow: 
+          -2px -2px 0 #FF0000, 
+          2px 2px 0 #0000FF, 
+          -2px 2px 0 #FF00FF, 
+          2px -2px 0 #00FFFF;
+      transform: translate(-1px, 1px);
+  }
+  40% {
+      text-shadow: 
+          2px -2px 0 #FF0000, 
+          -2px 2px 0 #0000FF, 
+          2px 2px 0 #FF00FF, 
+          -2px -2px 0 #00FFFF;
+      transform: translate(2px, -2px);
+  }
+  60% {
+      text-shadow: 
+          -2px 2px 0 #FF0000, 
+          2px -2px 0 #0000FF, 
+          -2px -2px 0 #FF00FF, 
+          2px 2px 0 #00FFFF;
+      transform: translate(-3px, 3px);
+  }
+  80% {
+      text-shadow: 
+          2px 2px 0 #FF0000, 
+          -2px -2px 0 #0000FF, 
+          2px -2px 0 #FF00FF, 
+          -2px 2px 0 #00FFFF;
+      transform: translate(2px, 2px);
+  }
+  100% {
+      text-shadow: 
+          -2px -2px 0 #FF0000, 
+          2px 2px 0 #0000FF, 
+          -2px 2px 0 #FF00FF, 
+          2px -2px 0 #00FFFF;
+      transform: translate(1, 1);
+  }
+}
