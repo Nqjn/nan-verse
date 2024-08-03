@@ -10,7 +10,7 @@ function Question({ question, index, userAnswer, feedback, onAnswerChange, onChe
         onChange={(e) => onAnswerChange(e.target.value)}
         placeholder="Vaše odpověď"
       />
-      <button onClick={onCheck}>Zkontrolovat</button>
+      <button className= "btn" onClick={onCheck}>Zkontrolovat</button>
       {feedback && (
         <div className={`feedback ${feedback.isCorrect ? 'correct' : 'incorrect'}`}>
           {feedback.message}
