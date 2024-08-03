@@ -1,5 +1,4 @@
 import './App.css';
-import "./index.css";
 import Home from "./Components/Home";
 import PokerPage from './Components/PokerPage';
 import { Routes, Route } from 'react-router-dom';
