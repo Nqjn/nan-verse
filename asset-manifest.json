@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nan-verse/static/css/main.e09d630d.css",
+    "main.css": "/nan-verse/static/css/main.32992c5a.css",
     "main.js": "/nan-verse/static/js/main.06b0b0b4.js",
     "static/media/tv-noise.png": "/nan-verse/static/media/tv-noise.a0e66e8712aa647e8771.png",
     "static/media/VCR_OSD_MONO_1.001.ttf": "/nan-verse/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
     "index.html": "/nan-verse/index.html",
-    "main.e09d630d.css.map": "/nan-verse/static/css/main.e09d630d.css.map",
+    "main.32992c5a.css.map": "/nan-verse/static/css/main.32992c5a.css.map",
     "main.06b0b0b4.js.map": "/nan-verse/static/js/main.06b0b0b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e09d630d.css",
+    "static/css/main.32992c5a.css",
     "static/js/main.06b0b0b4.js"
   ]
 }
