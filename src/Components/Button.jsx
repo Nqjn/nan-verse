@@ -1,8 +1,15 @@
 import "./Button.css"
+import "./Link.css"
 import { Link } from 'react-router-dom';
 
 function Button({ url, text}){
-return( <Link to = {url} className = "btn">{text}</Link>);
+    return (
+        <Link to={url} className="btn" style={{ textDecoration: 'none' }}>
+            <button className="btn">
+                {text}
+            </button>
+        </Link>
+    );
 }
 
 
