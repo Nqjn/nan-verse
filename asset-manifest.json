@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.68787bb6.css",
-    "main.js": "/static/js/main.53b9ec50.js",
-    "static/media/tv-noise.png": "/static/media/tv-noise.a0e66e8712aa647e8771.png",
-    "static/media/VCR_OSD_MONO_1.001.ttf": "/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
-    "index.html": "/index.html",
-    "main.68787bb6.css.map": "/static/css/main.68787bb6.css.map",
-    "main.53b9ec50.js.map": "/static/js/main.53b9ec50.js.map"
+    "main.css": "/nan-verse/static/css/main.1b8d0f7d.css",
+    "main.js": "/nan-verse/static/js/main.53b9ec50.js",
+    "static/media/tv-noise.png": "/nan-verse/static/media/tv-noise.a0e66e8712aa647e8771.png",
+    "static/media/VCR_OSD_MONO_1.001.ttf": "/nan-verse/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
+    "index.html": "/nan-verse/index.html",
+    "main.1b8d0f7d.css.map": "/nan-verse/static/css/main.1b8d0f7d.css.map",
+    "main.53b9ec50.js.map": "/nan-verse/static/js/main.53b9ec50.js.map"
   },
   "entrypoints": [
-    "static/css/main.68787bb6.css",
+    "static/css/main.1b8d0f7d.css",
     "static/js/main.53b9ec50.js"
   ]
 }
