@@ -1,5 +1,4 @@
 import "./Button.css"
-import "./Link.css"
 import { Link } from 'react-router-dom';
 
 function Button({ url, text}){
