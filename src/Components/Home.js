@@ -11,7 +11,7 @@ function Home(){
       card1: {
         cardName: "P0KER TRAINER",
         description: pokerDes,
-        url:"/p0ker",
+        url:"https://nqjn.github.io/p0ker",
         text:"P0KER"
       },
       card2: {
@@ -26,7 +26,7 @@ function Home(){
       <div className="container">
         <header className="header">Universe of NaN</header>
         <nav className='nav'>
-          <Link to="/"> Domů </Link>
+          <Link to="/nan-verse/"> Domů </Link>
           <Link to="/p0ker">Poker</Link>
         </nav>
      
