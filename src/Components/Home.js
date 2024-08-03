@@ -20,6 +20,12 @@ function Home(){
         url:"https://github.com/Nqjn",
         text: "GitHub"
       },
+      card2: {
+        cardName: "Prijimacky",
+        description: "training page for Cermat admission",
+        url:"https://github.com/prijimacky",
+        text: "Prjimacky"
+      }
     }
 
     return (
@@ -28,12 +34,13 @@ function Home(){
         <nav className='nav'>
           <Link to="/nan-verse/"> Domů </Link>
           <Link to="/p0ker">Poker</Link>
+          <Link to="/prijimacky">Prijimacky</Link>
         </nav>
      
         <main className='content'>
           <Card {...cardData.card1} />
           <Card {...cardData.card2}/>
-          <Card cardName={"Card 3"} description={"Description 3"}/>
+          <Card {...cardData.card3}/>
         </main>
         <aside className='sidebar'>Sidebar</aside>
         <footer className="footer">Web was created by NqjN</footer>
