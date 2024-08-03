@@ -1,7 +1,7 @@
 import "./Button.css"
 
 function Button({ url, text}){
-return( <Link to = {url} className = "btn" onClick={navigate}>{text}</Link>);
+return( <Link to = {url} className = "btn">{text}</Link>);
 }
 
 
