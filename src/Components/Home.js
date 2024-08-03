@@ -20,7 +20,7 @@ function Home(){
         url:"https://github.com/Nqjn",
         text: "GitHub"
       },
-      card2: {
+      card3: {
         cardName: "Prijimacky",
         description: "training page for Cermat admission",
         url:"https://github.com/prijimacky",
