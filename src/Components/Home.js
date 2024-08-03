@@ -23,8 +23,8 @@ function Home(){
       card3: {
         cardName: "Prijimacky",
         description: "training page for Cermat admission",
-        url:"https://github.com/prijimacky",
-        text: "Prjimacky"
+        url:"/prijimacky",
+        text: "Prijimacky"
       }
     }
 
